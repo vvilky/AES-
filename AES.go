@@ -1,5 +1,5 @@
 package main
-
+//Реалізація алгоритму AES  на мові програмування Golang
 import (
 	"crypto/aes"
 	"crypto/cipher"
