@@ -50,10 +50,7 @@ func decrypt(data []byte, passphrase string) []byte {
 }
 
 func main() {
-	//var a string
-	fmt.Println("Starting the application...")
-	//fmt.Print("Введіть повідомлення: ", a)
-	//	fmt.Fscan(os.Stdin, &a)
+	fmt.Println("Запуск програми...")
 	ciphertext := encrypt([]byte("Whatislovevladislav AES ciphertext"), "password")
 	fmt.Printf("Encrypted: %x\n", ciphertext)
 	plaintext := decrypt(ciphertext, "password")
